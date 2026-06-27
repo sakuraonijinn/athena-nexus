@@ -118,6 +118,7 @@ systemctl --user enable --now podman.socket
 ```bash
 git clone https://github.com/Athena-OS/athena-nexus
 cd athena-nexus
+npm cache clean --force
 npm install
 ```
 
